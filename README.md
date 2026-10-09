@@ -1,5 +1,5 @@
 <!-- ===================== HEADER ===================== -->
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0f0c29,50:302b63,100:24243e&height=240&section=header&text=Rohit%20Merawat&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Senior%20Frontend%20%26%20Mobile%20Engineer%20%E2%80%A2%207%2B%20Years&descAlignY=62&descSize=18" width="100%" alt="Rohit Merawat"/>
+<img src="./assets/banner.svg" width="100%" alt="Rohit Merawat — Senior Frontend & Mobile Engineer"/>
 
 <p align="center">
   <a href="https://rohit-merawat.lovable.app/">
@@ -14,9 +14,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/📍%20Indore,%20India-302b63?style=flat-square" alt="Location"/>
-  <img src="https://img.shields.io/badge/⏳%207%2B%20Years-302b63?style=flat-square" alt="Experience"/>
-  <img src="https://img.shields.io/badge/🤝%20Open%20to%20collaborate-2ea44f?style=flat-square" alt="Status"/>
+  <img src="https://img.shields.io/badge/%F0%9F%93%8D%20Indore%2C%20India-302b63?style=flat-square" alt="Location"/>
+  <img src="https://img.shields.io/badge/%E2%8F%B3%207%2B%20Years-302b63?style=flat-square" alt="Experience"/>
+  <img src="https://img.shields.io/badge/%F0%9F%A4%9D%20Open%20to%20collaborate-2ea44f?style=flat-square" alt="Status"/>
   <img src="https://komarev.com/ghpvc/?username=rohitmerawat807&style=flat-square&color=7C3AED&label=Profile+views" alt="Profile views"/>
 </p>
 
@@ -184,4 +184,4 @@ Connects you with people **within 1 km** of you for real‑time chat.
   <a href="mailto:rohitmerawat807@gmail.com">Email</a>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer" width="100%"/>
+<img src="./assets/footer.svg" width="100%" alt=""/>
