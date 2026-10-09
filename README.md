@@ -1,5 +1,5 @@
 <!-- ===================== HEADER ===================== -->
-<img src="./assets/banner.svg" width="100%" alt="Rohit Merawat — Senior Frontend & Mobile Engineer"/>
+<img src="./banner.svg" width="100%" alt="Rohit Merawat — Senior Frontend & Mobile Engineer"/>
 
 <p align="center">
   <a href="https://rohit-merawat.lovable.app/">
@@ -184,4 +184,4 @@ Connects you with people **within 1 km** of you for real‑time chat.
   <a href="mailto:rohitmerawat807@gmail.com">Email</a>
 </p>
 
-<img src="./assets/footer.svg" width="100%" alt=""/>
+<img src="./footer.svg" width="100%" alt=""/>
