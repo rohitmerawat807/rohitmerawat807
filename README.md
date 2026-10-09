@@ -15,7 +15,6 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/📍%20Indore,%20India-302b63?style=flat-square" alt="Location"/>
-  <img src="https://img.shields.io/badge/🏢%20CodeOrbit%20Pvt%20Ltd-302b63?style=flat-square" alt="Company"/>
   <img src="https://img.shields.io/badge/⏳%207%2B%20Years-302b63?style=flat-square" alt="Experience"/>
   <img src="https://img.shields.io/badge/🤝%20Open%20to%20collaborate-2ea44f?style=flat-square" alt="Status"/>
   <img src="https://komarev.com/ghpvc/?username=rohitmerawat807&style=flat-square&color=7C3AED&label=Profile+views" alt="Profile views"/>
@@ -32,7 +31,7 @@
 
 I'm a **Senior Frontend & Mobile Engineer** with **7+ years** of experience building scalable products in **React Native, React.js and TypeScript**, and going fully native with **Swift** when an experience needs to feel just right.
 
-I currently **lead a mobile team** at CodeOrbit, owning everything from architecture and code reviews to CI/CD pipelines and App Store releases.
+I currently **lead a mobile team** at Monere AI, owning everything from architecture and code reviews to CI/CD pipelines and App Store releases.
 
 I've shipped products across **🏥 Healthcare · 💳 Fintech · 🤖 AI · 📡 IoT**.
 
