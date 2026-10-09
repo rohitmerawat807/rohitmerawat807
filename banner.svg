@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f0c29"/>
+      <stop offset="55%" stop-color="#302b63"/>
+      <stop offset="100%" stop-color="#24243e"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#C4B5FD"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .float1 { animation: float 7s ease-in-out infinite; }
+      .float2 { animation: float 9s ease-in-out infinite reverse; }
+      .fade   { animation: fade 1.4s ease-out both; }
+      .fade2  { animation: fade 1.4s ease-out 0.4s both; }
+      .fade3  { animation: fade 1.4s ease-out 0.8s both; }
+      @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-14px); } }
+      @keyframes fade  { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+      text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; }
+      .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="280" rx="18" fill="url(#bg)"/>
+
+  <!-- soft glows -->
+  <circle class="float1" cx="190" cy="70" r="150" fill="url(#glow)"/>
+  <circle class="float2" cx="1030" cy="210" r="170" fill="url(#glow)"/>
+
+  <!-- dotted grid accent -->
+  <g fill="#A78BFA" opacity="0.25">
+    <circle cx="1060" cy="50" r="2.5"/><circle cx="1085" cy="50" r="2.5"/><circle cx="1110" cy="50" r="2.5"/><circle cx="1135" cy="50" r="2.5"/>
+    <circle cx="1060" cy="75" r="2.5"/><circle cx="1085" cy="75" r="2.5"/><circle cx="1110" cy="75" r="2.5"/><circle cx="1135" cy="75" r="2.5"/>
+    <circle cx="1060" cy="100" r="2.5"/><circle cx="1085" cy="100" r="2.5"/><circle cx="1110" cy="100" r="2.5"/><circle cx="1135" cy="100" r="2.5"/>
+    <circle cx="65" cy="200" r="2.5"/><circle cx="90" cy="200" r="2.5"/><circle cx="115" cy="200" r="2.5"/>
+    <circle cx="65" cy="225" r="2.5"/><circle cx="90" cy="225" r="2.5"/><circle cx="115" cy="225" r="2.5"/>
+  </g>
+
+  <!-- code brackets -->
+  <text x="110" y="160" font-size="64" fill="#A78BFA" opacity="0.35" class="mono">&lt;/&gt;</text>
+  <text x="995" y="175" font-size="64" fill="#A78BFA" opacity="0.35" class="mono">{ }</text>
+
+  <!-- content -->
+  <g text-anchor="middle">
+    <text class="fade mono" x="600" y="78" font-size="18" fill="#A78BFA" letter-spacing="4">HELLO, WORLD — I'M</text>
+    <text class="fade2" x="600" y="148" font-size="66" font-weight="800" fill="url(#name)">Rohit Merawat</text>
+    <text class="fade3" x="600" y="194" font-size="22" fill="#E5E7EB">Senior Frontend &amp; Mobile Engineer  •  7+ Years</text>
+    <text class="fade3 mono" x="600" y="232" font-size="16" fill="#C4B5FD">React Native  ·  Swift  ·  React.js  ·  TypeScript  ·  AWS</text>
+  </g>
+</svg>
